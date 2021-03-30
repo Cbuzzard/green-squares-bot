@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const { Octokit } = require("@octokit/rest");
-import key from "./key"
+const key = require("./key")
 
 const client = new Discord.Client();
 const octokit = new Octokit({})
